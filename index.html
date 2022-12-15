@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="valentyna, cv, resume">
+    <meta name="description" content="Это сайт - резюме Валентины Таранчук">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentyna Resume</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="info">
+            <img src="img/avatar.jpg" alt="Валентина Таранчук" class="avatar">
+            <div class="info-text">
+                <h1>Валентина Таранчук</h1>
+                <p>Я начинающий веб-разработчик</p>
+                <p>Очень люблю путешествовать, заниматься спортом и программировать</p>
+                <h4>Список социальных сетей:</h4>
+                <a href="https://www.instagram.com/valechkataranchuk/" target="_blank">Instagram</a>
+                |
+                <a href="https://www.facebook.com/valentina.taranchuk" target="_blank">Facebook</a>
+                |
+                <a href="https://github.com/valentyna88" target="_blank">GitHub</a>
+            </div>        
+        </div>
+        
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Йога</li>
+                <li>Цветоводство</li>
+            </ol>
+        </div>
+        
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>EPAM</td>
+                        <td>Junior Frontend</td>
+                        <td>2020-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Telia</td>
+                        <td>Junior Frontend</td>
+                        <td>2021-2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="card bg-yellow">
+            <h2>Мои курсы</h2>
+            <ul class="link-list">
+                <li><a href="#">Получение профессии Frontend Разработчика</a></li>
+                <li><a href="#">Все курсы</a></li>
+            </ul>
+        </div>
+
+        
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea name="" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input  class="btn"type="submit" value="Отправить!">
+        </form>
+    </div>
+</body>
+</html>
